@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>OG</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!-- style -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+  	<link rel="stylesheet" href="css/style-responsive.css">
+</head>
+<body>
+	<div class="content">
+	<!-- week 8 -->
+	<div class="one-column">
+		<h1 id="W8">Week 8</h1>
+	</div>
+	<div class="two-column">
+	<h2><mark>To-do:</mark></h2>
+	<p>Measure something: add a sensor to a microcontroller board that you have designed and read it<br>
+	</p>
+	<br><br><br>
+	</div>
+	<div class="clear">
+	<h1>Beats and such</h1>
+	<p>For this week I chose to do an analog microphone board, with an additional LED. Designed in EAGLE, my <a href="files/sound-board.sch">schematic</a> and <a href="files/sound-board.brd">board</a> took substantially less time than before. Similarly, the milling and soldering was smooth sailing. Until... <br>
+	I realized (only after my board was completely finished) that one of the traces was improperly cut. To mitigate this issue I turned to my trusty friend - the X-Acto Knife. Yet despite my best intentions I cut the wrong trace. Dismayed at first, I hacked my way through it. Since the trace was under the microchip, neither a jumper wire nor 0 ohm resistor would do so I improvised by adding a piece of copper. </p>
+	<div class="full"><img src="img/board_trace.jpg"></div>
+	<p>Using the code posted on the website I was able to successfully program the board.<br></p>
+	<div class="two-column-img">
+	<div class="two-column-left"><img src="img/board_programming.jpg"></div>
+	<div class="two-column-right"><div class="vid"><iframe src="https://player.vimeo.com/video/190877690" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div></div></div>
+	<p>
+	My next steps are to attain a better understanding of python script and the information being sent through serial. From there I would like to configure the LED to light up once a certain threshhold of sound is reached. All efforts moving toward developing a beat recognition algorithm for my final project. 
+	</p>
+	<br><br><br><br>
+	</div>
+
+	</div>
+	
+
+
+</body>
+</html>

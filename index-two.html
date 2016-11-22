@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/scroll-test.css">
+</head>
+<body>
+<script>
+	function toggleClock() { 
+    // get the clock 
+    var myClock = document.getElementById('visible');
+
+    // get the current value of the clock's display property 
+    var displaySetting = myClock.style.display;
+
+    // also get the clock button, so we can change what it says 
+    var clockButton = document.getElementById('clockButton');
+				
+    // now toggle the clock and the button text, depending on current state
+    if (displaySetting == 'block') { 
+      // clock is visible. hide it
+      myClock.style.display = 'none';
+      // change button text
+      clockButton.innerHTML = 'Show visible';
+    }
+    else { 
+      // clock is hidden. show it 
+      myClock.style.display = 'block';
+      // change button text
+      clockButton.innerHTML = 'Hide visible';
+    }
+  }  
+</script>
+
+<div id="visible">
+	In this new toggleClock() function, your are using JavaScript to retrieve the clock element, get the current value of its display style, then checking it. If the display is currently set to "block", the clock is visible, so you change the display to "none", which hides the clock. If the clock is already hidden, you change the display to "block" to make it visible again. While you're switching the clock's display back and forth from "block" to "none", you're also changing the text (innerHTML) on the clock button, so that alternates between "Show clock" and "Hide clock", depending on the current display state of the clock.
+</div>
+
+<button onclick="toggleClock()" id="clockButton">Show visible</button>
+</body>
+</html>
