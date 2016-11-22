@@ -1,0 +1,329 @@
+@media all and (max-width: 1330px) and (min-width: 1180px) {
+
+  /*
+  **************************
+  General
+  **************************
+  */
+
+  .two-column-img{
+    width: 1053px;
+  }
+
+  .two-column-left img, .two-column-right img, .two-column-left p, .two-column-right p{
+   width: 527px;
+  }
+  
+  .vid1 iframe, .vid2 iframe{
+    width: 527px;
+    /*height: 225px;*/
+  }
+
+  img {
+    width: 1023px;
+    display:block;
+    margin:auto;
+  }
+
+
+  /*
+  **************************
+  Portfolio Grid
+  **************************
+  */
+
+  
+  .portfolio-grid{
+    width: 1053px;
+    padding: 0px;
+
+  }
+
+  .grid-hover, li.grid-item, li.grid-item img, li.grid-item-wide{
+    width: 321px !important;
+  }
+
+}
+
+
+@media all and (max-width: 1179px) and (min-width: 1024px) {
+
+  /*
+  **************************
+  General
+  **************************
+  */
+
+  .two-column-img{
+    width: 830px;
+  }
+
+  .two-column-left img, .two-column-right img, .two-column-left p, .two-column-right p{
+   width: 385px;
+  }
+
+  .vid1 iframe, .vid2 iframe{
+    width: 400px;
+    height: 225px;
+  }
+  
+  img {
+    width: 800px;
+    display:block;
+    margin:auto;
+  }
+
+  /*
+  **************************
+  Portfolio Grid
+  **************************
+  */
+
+  .portfolio-grid{
+    width:830px;
+
+  }
+
+  .grid-hover, li.grid-item, li.grid-item img{
+    width:246px !important;
+  }
+
+}
+
+
+@media all and (max-width: 1023px) and (min-width: 769px) {
+
+  /*
+  **************************
+  General
+  **************************
+  */
+
+  .two-column-img{
+    width: 630px;
+  }
+
+  .two-column-left img, .two-column-right img, .two-column-left p, .two-column-right p{
+   width: 282px;
+  
+  }
+
+  img {
+    width: 600px;
+    display:block;
+    margin:auto;
+  }
+
+  .vid1 iframe, .vid2 iframe{
+    width: 600px;
+    height: 337px;
+  }
+
+  /*
+  **************************
+  Portfolio Grid
+  **************************
+  */
+
+  .portfolio-grid{
+    width:630px;
+  }
+
+  .grid-hover, li.grid-item, li.grid-item img, li.grid-item-wide{
+    width:282px !important;
+  }
+
+  li.grid-item-narrow{
+    width:230px;
+  }
+
+}
+
+
+
+@media all and (max-width: 768px) and (min-width: 481px) {
+
+  /*
+  **************************
+  General
+  **************************
+  */
+  
+  .two-column-img{
+    width: 430px;
+  }
+
+  .two-column-left img, .two-column-right img, .two-column-left p, .two-column-right p{
+   width: 400px;
+  
+  }
+
+  .two-column-right, .two-column-left{
+    float: left;
+    clear: left;
+    width: 100%;
+  }
+
+  img {
+    width: 400px;
+    display:block;
+    margin:auto;
+  }
+  
+  .clear iframe{
+  height: 300px;
+  }
+
+  h1, h2{
+    line-height: 20px;
+  }
+
+  p {
+    padding-top: 10px;
+  }
+
+  .clear h1{
+    padding-bottom: 10px;
+  }
+
+  .menu .menu-items h2 {
+    font-size: 20px;
+  }
+  
+  .vid { 
+  margin: 15px 15px 15px 15px !important;
+  } 
+
+  .vid1 iframe, .vid2 iframe{
+    width: 400px;
+    height: 225px;
+  }
+
+  #footer-left{text-align:center;}
+
+  /*
+  **************************
+  Portfolio Grid
+  **************************
+  */
+
+  .portfolio-grid{
+    width:430px;
+    padding: 0px;
+  }
+
+  .grid-hover, li.grid-item, li.grid-item img, li.grid-item-wide{
+    width:400px;
+
+  }
+
+  li.grid-item-narrow{
+    width:180px;
+  }
+
+
+}
+
+
+@media all and (max-width: 480px) and (min-width: 320px) {
+
+  /*
+  **************************
+  General
+  **************************
+  */
+
+  body {
+  display: flex;
+  justify-content: center;
+  }
+
+  .center {
+    width: 310px;
+  }
+
+  
+  img {
+    width: 310px;
+    display:block;
+    margin:auto;
+  }
+  
+  p{
+    width:100% !important;
+    padding-top: 0px;
+  }
+
+  h1, h2{
+    line-height: 30px;
+  }
+
+  .clear h1{
+    padding-bottom: 10px;
+  }
+
+  .menu .menu-items h2 {
+    font-size: 20px;
+  }
+  
+  .clear iframe{
+    max-height: 260px !important;
+    overflow:hidden;
+  }
+ 
+  .two-column-img{
+    width: 310px;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .two-column-left img, .two-column-right img, .two-column-left p, .two-column-right p{
+   width: 310px;
+   padding-left: 0px !important;
+   padding-right: 0px !important;
+  
+  }
+
+  .two-column-right, .two-column-left{
+    float: left;
+    clear: left;
+    width: 100%
+  }
+
+  .vid { 
+  margin: 15px 0px 15px 0px !important;
+  }
+
+
+  .vid1 iframe, .vid2 iframe{
+    width: 280px;
+    height: 157px;
+  }
+  
+  
+  #footer-left{text-align:center;}
+  
+  
+
+  /*
+  **************************
+  Portfolio Grid
+  **************************
+  */
+
+  .portfolio-grid{
+    width:310px;
+    padding: 0px;
+  }
+
+  .grid-hover, li.grid-item, li.grid-item img, li.grid-item-wide{
+    width:310px !important;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  li.grid-item-narrow{
+    width: 260px;
+  }
+
+}
