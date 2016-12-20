@@ -15,7 +15,7 @@
 
 <!-- week 12 -->
 	<div class="one-column">
-		<h1 id="W12">Week 12</h1>
+		<h3 id="W12">Week 12</h3>
 	</div>
 	<div class="two-column">
 	<h2><mark>To-do:</mark></h2>
@@ -24,7 +24,7 @@
 	<br><br><br>
 	</div>
 	<div class="clear">
-	<h1>Microphone meets Speaker</h1>
+	<h3>Microphone meets Speaker</h3>
 	<p>This week I sought out to socialize my speaker board with my microphone board. To do so, decide to use the asynchronous serial bus method (aka the easy way). It was by no means an easy feat yet I think I got something. Well, I am able to generate a random sound on  my speaker board using the amplitude levels perceived by my microphone.<br></p>
 	<div class="clear"><div class="vid"><iframe src="https://player.vimeo.com/video/194680928" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div></div>
 	<p>The work flow is such that the <a href="files/serial-using-arduinouno.ino">arduino reads in the serial data</a> from the microphone and sends it along its Tx line. Meanwhile, serial is also instatiated on the <a href="files/speakerwave-arduino.ino">speaker board</a> which interperts the signal and produces a sound at a frequency ten times the singal. My next steps are to make sense to the serial data, akin to what Neil has done in python in the input devices chapter.</p>
