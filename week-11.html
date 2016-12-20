@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>OG</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!-- style -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+  	<link rel="stylesheet" href="css/style-responsive.css">
+</head>
+<body>
+	<div class="content">
+
+
+<!-- week 11 -->
+	<div class="one-column">
+		<h1 id="W11">Week 11</h1>
+	</div>
+	<div class="two-column">
+	<h2><mark>To-do:</mark></h2>
+	<p>Write an application that interfaces with an <a href="http://academy.cba.mit.edu/classes/input_devices/index.html"> input</a> and/or <a href="http://academy.cba.mit.edu/classes/output_devices/index.html">output</a> device that you made,
+      comparing as many tool options as possible<br>
+	</p>
+	<br><br><br>
+	</div>
+	<div class="clear">
+	<h1>Failure</h1>
+	<p>This was a week of [epic] failure. As the end of the semester nears, I decided to use this week to focus on connecting the dots for my final project by focusing on the overarching archicture. This week I've set out to capture data from my microphone board, process it, and integrate it to my speaker board (this entailed getting my speaker board working first). While I was able to record data from my microphone board by altering <a href="files/hello.SPU0414HR5H.py">Neil's script</a> slightly, and to successfully trouble shoot my speaker board. The successes ended there.
+	In recording the byte values and the corresonding timestamp yeilded <a href="files/microphone_data.html">some information</a>, yet I have no idea how to parse through the information to derive anything "musical" related.
+	With the speaker, it became evident that the issue was mostly in the voltage I was supplying to the it was too low. When I tried the <a href="https://vimeo.com/193720376">same board with a different set of speakers</a> (a pair with an built-in ampliphier) sound was generated. To mitigate this issue I tried building <a href="files/op-amp.sch">a non-inverting amplifier circuit board</a> and failed (the issue was that I neglected to power my op amp). Parsing through the speaker <a href="http://academy.cba.mit.edu/classes/output_devices/speaker/hello.speaker.45.c">C code</a> didn't get me far and while in abstract terms my final project idea is pretty well defined, on the technical side there are substantial gaps of information and implementation.
+	<br>
+	
+	</p>
+	<br><br><br><br></div>
+
+	</div>
+	
+
+
+</body>
+</html>
